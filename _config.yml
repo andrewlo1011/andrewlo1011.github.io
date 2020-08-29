@@ -8,35 +8,33 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Chirpy                          # the main title
+title: Drew Lo                         # the main title
 
-tagline: A text-focused Jekyll theme.  # it will display as the sub-title
+tagline: Great things are not done by impulse, but by a series of small things brought together. ~ Vincent Van Gogh  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  Share my learning path about - Database, Security and Cloud   
 
 # Replace with the website url, e.g. 'https://username.github.io'
-url: 'protocol://domain'
+url: 'https://drewlo.cc'
 
-author: your_full_name                  # change to your full name
+author: Andrew Lo                  # change to your full name
 
-avatar: /assets/img/sample/avatar.jpg   # support internet resources
+avatar: /assets/img/avatar.jpg   # support internet resources
 
 github:
-  username: github_username             # change to your github username
+  username: andrewlo1011             # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+#twitter:
+  #username: twitter_username            # change to your twitter username
 
 social:
-  name: your_full_name                  # it will shows as the copyright owner in Footer
-  email: example@doamin.com             # change to your email address
+  name: drewlo.cc                  # it will shows as the copyright owner in Footer
+  email: andrwelo1011@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    #- https://twitter.com/username      # change to your twitter homepage
+    - https://github.com/andrewlo1011       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -51,7 +49,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 baseurl: ''
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: Asia/Hong_Kong
 
 google_analytics:
   id: ''          # Fill with your Google Analytics ID
@@ -78,7 +76,7 @@ disqus:
 #
 #     dark   - Use the dark color scheme
 #
-theme_mode: dual
+theme_mode: light
 
 # boolean type, global switch for ToC in posts.
 toc: true
