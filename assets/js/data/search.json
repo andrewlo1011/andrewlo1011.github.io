@@ -1,17 +1,1 @@
----
-layout: compress
----
-
-[
-  {% for post in site.posts %}
-  {
-    "title": "{{ post.title | escape }}",
-    "url": "{{ site.baseurl }}{{ post.url }}",
-    "categories": "{{ post.categories | join: ', '}}",
-    "tags": "{{ post.tags | join: ', ' }}",
-    "date": "{{ post.date }}",
-    {% include no-linenos.html content=post.content %}
-    "snippet": "{{ content | strip_html | strip_newlines | remove_chars | escape | truncate: 300 | replace: '\', '\\\\' }}"
-  }{% unless forloop.last %},{% endunless %}
-  {% endfor %}
-]
+[ { "title": "Oracle Database 19.3 Pre-Built VirtualBox Image", "url": "/posts/Oracle-Database-19-Pre-Built-VirtualBox-Image/", "categories": "Database", "tags": "Database", "date": "2020-08-02 00:00:00 +0800", "snippet": "Oracle Development VMTo perform a quick test on Oracle database v19.3 and avoid various installation steps, we could make use of Pre-Built Development VMs for VirtualBox.We could download the VM image here:https://www.oracle.com/downloads/developer-vm/community-downloads.htmlYou need an Oracle OT..." } ]
