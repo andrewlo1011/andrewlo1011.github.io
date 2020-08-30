@@ -1,7 +1,7 @@
 ---
 title: Test Table Audit on AWS RDS Using HammerDB
 subTitle: AWS Oracle RDS Performance
-category: "AWS, RDS"
+category: [AWS, RDS]
 tags: ['AWS','RDS','HammerDB','Database','DAM']
 cover: hammerdb_rds.jpg
 ---
